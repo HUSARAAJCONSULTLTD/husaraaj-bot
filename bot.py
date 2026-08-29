@@ -150,7 +150,7 @@ async def handle_menu(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
         await query.message.edit_text(
             "📞 Contact Husaraaj:\n"
-            "+256 700 000 000\n"
+            "+256 730465869\n"
             "Location: Kampala, Uganda",
             reply_markup=InlineKeyboardMarkup(
                 [
