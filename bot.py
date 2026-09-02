@@ -27,8 +27,12 @@ web_app = Flask(__name__)
 
 @web_app.route("/")
 def home():
-    return "Husaraaj Recruitment Bot is running!"
+    return "OK", 200
 
+
+@web_app.route("/health")
+def health():
+    return "OK", 200
 
 def run_web_server():
     port = int(os.environ.get("PORT", 10000))
